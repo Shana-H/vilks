@@ -1,0 +1,58 @@
+html {
+    background-color: #363636;
+    color: white;
+}
+
+header { 
+    background: #FB5B6B; 
+} 
+
+.progress {
+    justify-content: flex-start;
+	border-radius: 100px;
+	align-items: center;
+	position: relative;
+	padding: 0;
+	display: flex;
+	height: 25px;
+	width: 100%;
+}
+
+.progress-bar  {
+    background: #FB5B6B;
+    animation: load 3s normal forwards;
+	box-shadow: 0 10px 40px -10px #fff;
+	border-radius: 100px;
+	height: 25px;
+	width: 0;
+}
+
+@keyframes load {
+	0% {
+		width: 0;
+	}
+}
+
+
+h5 {
+    color: #FB5B6B ;
+}
+
+h3, h4 {
+    color: #363636;
+}
+
+h5:hover {
+    color: #ce3040;
+    font-size: 22px;
+}
+
+h3:hover {
+    color: #131313;
+    font-size: 30px;
+}
+
+h4:hover {
+    color: #131313;
+}
+
